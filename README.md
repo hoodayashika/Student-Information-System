@@ -6,18 +6,18 @@ This Java project is a Student Information System with a graphical user interfac
 ## File Descriptions
 ### 1. Student.java
 - A model class that defines the properties of a student, including:
- - id: The unique identifier for the student.
- - name: The name of the student.
- - email: The student’s email address.
+- 1. id: The unique identifier for the student.
+  2. name: The name of the student.
+  3. email: The student’s email address.
 - Provides getter and setter methods to access and modify student data.
 - Overrides the toString() method to return a readable string format, displaying the student’s name and ID.
 
 ### 2. StudentController.java
 - Handles the GUI logic and user interactions for managing students.
 - Features:
- - Form Input: Fields for entering student ID, name, and email.
- - Action Buttons: Includes buttons for adding, updating, deleting, and clearing student records.
- - Student List: A JList component to display all students and enable selection.
+ - 1. Form Input: Fields for entering student ID, name, and email.
+   2. Action Buttons: Includes buttons for adding, updating, deleting, and clearing student records.
+   3. Student List: A JList component to display all students and enable selection.
 - Uses an ArrayList to store student data and a DefaultListModel for displaying it in the GUI.
 - Implements various Swing listeners for user interaction events like button clicks and list selections.
 
